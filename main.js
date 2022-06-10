@@ -26,10 +26,10 @@ client.on('message', message =>{
     if (command == 'hello') {
         message.channel.send('nice to meet you')
     }
-    if (command == 'bye') {
+    /*if (command == 'bye') {
         message.channel.send('Stay with me please')
-    }
+    }*/
 });
 
-//kk
+
 client.login(process.env.token); //The bot token which have setted in heroku
