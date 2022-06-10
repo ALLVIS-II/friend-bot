@@ -31,5 +31,5 @@ client.on('message', message =>{
     }
 });
 
-
+//kk
 client.login(process.env.token); //The bot token which have setted in heroku
