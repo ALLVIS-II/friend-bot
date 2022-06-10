@@ -26,6 +26,9 @@ client.on('message', message =>{
     if (command == 'hello') {
         message.channel.send('nice to meet you')
     }
+    if (command == 'unhappy') {
+        message.channel.send('I can talk to you')
+    }
 });
 
 
