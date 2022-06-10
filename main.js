@@ -23,6 +23,11 @@ client.on('message', message =>{
     if (command == 'ping') {
         message.channel.send('ping')
     };
+    
+    if (command == 'byebye') {
+        message.channel.send('Don't leave')
+    }
+    
     if (command == 'hello') {
         message.channel.send('nice to meet you')
     }
