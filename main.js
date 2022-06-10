@@ -26,6 +26,9 @@ client.on('message', message =>{
     if (command == 'hello') {
         message.channel.send('nice to meet you')
     }
+    if (command == 'bye') {
+        message.channel.send('Don't leave me alone')
+    }
 });
 
 
